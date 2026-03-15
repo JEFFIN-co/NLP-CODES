@@ -1,0 +1,28 @@
+import nltk
+from nltk.tag import hmm
+
+# Read training data from file
+train_data = []
+
+with open("/workspaces/NLP-CODES/HMM/train.txt") as file:
+    for line in file:
+        pairs = line.strip().split()
+        sent = []
+        for p in pairs:
+            word, tag = p.split("/")
+            sent.append((word, tag))
+        train_data.append(sent)
+
+# Train HMM tagger
+trainer = hmm.HiddenMarkovModelTrainer()
+tagger = trainer.train(train_data)
+
+# Take sentence from user
+sentence = input("Enter a sentence: ").split()
+
+# Tag the sentence
+result = tagger.tag(sentence)
+
+print("\nPOS Tagging Result:\n")
+for word, tag in result:
+    print(word, "->", tag)
