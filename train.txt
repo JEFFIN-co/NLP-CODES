@@ -1,0 +1,4 @@
+I/PRON love/VERB dogs/NOUN
+You/PRON eat/VERB rice/NOUN
+Dogs/NOUN bark/VERB loudly/ADV
+She/PRON likes/VERB cats/NOUN
