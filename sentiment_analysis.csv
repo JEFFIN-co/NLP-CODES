@@ -1,0 +1,21 @@
+text,sentiment
+"I love this movie",positive
+"This product is amazing",positive
+"Excellent service and support",positive
+"I am very happy with the results",positive
+"This is the best app ever",positive
+"The experience was wonderful",positive
+"I really enjoyed the food",positive
+"The performance was outstanding",positive
+"This is fantastic",positive
+"Very good quality",positive
+"I hate this product",negative
+"This movie is terrible",negative
+"Worst experience ever",negative
+"I am very disappointed",negative
+"This app is useless",negative
+"The service was horrible",negative
+"I will never buy this again",negative
+"Very bad quality",negative
+"This is awful",negative
+"The food tasted bad",negative

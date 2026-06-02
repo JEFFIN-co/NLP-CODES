@@ -1,0 +1,10 @@
+Hello, how are you?
+What is your name?
+I love learning NLP.
+Machine learning is very interesting.
+Python is my favorite programming language.
+Chatbots are useful for customer support.
+Artificial Intelligence is the future.
+Natural Language Processing deals with text data.
+I enjoy watching movies.
+The weather is very pleasant today.

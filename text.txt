@@ -1,0 +1,4 @@
+nlp ig good
+java is good 
+python is super 
+python is great
